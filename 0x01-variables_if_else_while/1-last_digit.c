@@ -7,7 +7,7 @@
  *
  *Description
  *
- * Reduce: 0 (Always)
+ * Reduce: Always 0 (Success)
  */
 int main(void)
 {
