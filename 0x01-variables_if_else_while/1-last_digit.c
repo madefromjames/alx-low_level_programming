@@ -5,7 +5,7 @@
 /**
  * main -Entry point
  *
- *Description
+ *Description: This program prints the last digit of a number
  *
  * Reduce: Always 0 (Success)
  */
@@ -16,7 +16,6 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	lastt = n % 10;
-
 	if (lastt > 5)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, lastt);
@@ -29,5 +28,5 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastt);
 	}
-	return(0);
+	return (0);
 }
