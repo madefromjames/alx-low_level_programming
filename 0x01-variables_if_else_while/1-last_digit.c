@@ -2,13 +2,18 @@
 #include <time.h>
 #include <stdio.h>
 
+/**
+ * main -Entry point
+ *
+ * Reduce: 0 (Always)
+ */
 int main(void)
 {
 	int n;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	printf("Last digit of %i is %i and is", n, n);
+	printf("Last digit of %i is %i and is ", n, n);
 	if (n > 5)
 	{
 		printf("greater than 5\n");
