@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Reduce: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -15,7 +15,7 @@ int main(void)
 		{
 			for (z = y + 1; z <= 7; z++)
 			{
-				if (x != y && x != y && y != z)
+				if (x != y && x != z && y != z)
 				{
 					putchar(x + '0');
 					putchar(y + '0');
