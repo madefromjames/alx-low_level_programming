@@ -15,9 +15,12 @@ int main(void)
 		{
 			for (z = y + 1; z <= '7'; z++)
 			{
-				putchar(x);
-				putchar(y);
-				putchar(z);
+				if (x != y && x != z && y != z)
+				{
+					putchar(x);
+					putchar(y);
+					putchar(z);
+				}
 				if (x != y || x != z || y != z)
 				{
 					putchar(',');
