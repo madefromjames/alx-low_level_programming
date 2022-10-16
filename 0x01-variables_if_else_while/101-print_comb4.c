@@ -15,17 +15,14 @@ int main(void)
 		{
 			for (z = y + 1; z <= 7; z++)
 			{
-				if (x != y && x != z && y != z)
-				{
-					putchar(x + '0');
-					putchar(y + '0');
-					putchar(z + '0');
-				}
-				if (x != 5 || y != 6 || z != 7)
-				{
-					putchar(',');
-					putchar(' ');
-				}
+				putchar(x);
+				putchar(y);
+				putchar(z);
+			}
+			if (x != 5 || y != 6 || z != 7)
+			{
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
