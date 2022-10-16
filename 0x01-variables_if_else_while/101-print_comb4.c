@@ -9,19 +9,19 @@ int main(void)
 {
 	int x, y, z;
 
-	for (x = '0'; x <= '5'; x++)
+	for (x = 0; x <= 7; x++)
 	{
-		for (y = x + 1; y <= '6'; y++)
+		for (y = x + 1; y <= 8; y++)
 		{
-			for (z = y + 1; z <= '7'; z++)
+			for (z = y + 1; z <= 9; z++)
 			{
 				if (x != y && x != z && y != z)
 				{
-					putchar(x);
-					putchar(y);
-					putchar(z);
+					putchar(x + '0');
+					putchar(y + '0');
+					putchar(z + '0');
 				}
-				if (x != '5' || y != '6' || z != '7')
+				if (x != 7 || y != 8 || z != 9)
 				{
 					putchar(',');
 					putchar(' ');
