@@ -18,11 +18,11 @@ int main(void)
 				putchar(x);
 				putchar(y);
 				putchar(z);
-			}
-			if (x != '5' || y != '6' || z != '7')
-			{
-				putchar(',');
-				putchar(' ');
+				if (x != y || x != z || y != z)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
