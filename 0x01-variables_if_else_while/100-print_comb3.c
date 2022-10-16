@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main _ Entry point
+ * main - Entry point
  *
  * Description: Prints all possible different combinations of two digits
  *
