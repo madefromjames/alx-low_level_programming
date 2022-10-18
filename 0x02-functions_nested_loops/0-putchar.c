@@ -13,5 +13,5 @@ int main(void)
 {
 	write(1, "_putchar", strlen("_putchar"));
 	putchar(10);
-	return 0;
+	return (0);
 }
