@@ -11,20 +11,20 @@ int main(void)
 {
 	int a, b, c, d;
 
-	for (a = 0; a < 9; a++)
+	for (a = 0; a <= 9; a++)
 	{
-		for (b = 0; b < 9; b++)
+		for (b = 0; b <= 8; b++)
 		{
-			for (c = a; c < 9; c++)
+			for (c = a; c <= 9; c++)
 			{
-				for (d = c + 1; d < 9; d++)
+				for (d = b + 1; d <= 9; d++)
 				{
 					putchar(a + '0');
 					putchar(b + '0');
 					putchar(' ');
 					putchar(c + '0');
 					putchar(d + '0');
-					if (a != 9 || b != 9 || c != 9 || d != 9)
+					if (a != 9 || b != 8 || c != 9 || d != 9)
 					{
 						putchar(',');
 						putchar(' ');
