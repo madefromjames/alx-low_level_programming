@@ -3,7 +3,7 @@
 
 /**
  * _abs - absolute value of an integer.
- * @r: absolute integer
+ * @i: absolute integer
  *
  * Return: Always 0
  */
