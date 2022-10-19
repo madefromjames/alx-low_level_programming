@@ -7,11 +7,12 @@
  *
  * Return: Always 0
  */
-int _abs(int r)
+int _abs(int i)
 {
-	if (r > 0)
-		_putchar(r);
-	else if (r < 0)
-		_putchar(-r);
+	if (i > 0)
+		_putchar(i);
+	else if (i < 0)
+		_putchar(-i);
+
 	return (0);
 }
