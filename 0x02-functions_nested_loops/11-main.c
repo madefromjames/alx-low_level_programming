@@ -5,7 +5,7 @@
  *
  * Return: Always 0
  */
-int main(voi)
+int main(void)
 {
 	print_to_98(0);
 	print_to_98(98);
