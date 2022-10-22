@@ -3,13 +3,13 @@
 
 /**
  * main - checks for a digit (0 through 9)
- * @c: returns digit
+ * @c: return integer
  *
- * Return: Always 0.
+ * Return: 1 if c is a digit, otherwise return 0
  */
 int _isdigit(int c)
 {
-	if (c >= 47 && c <= 57)
+	if (c >= 48 && c <= 57)
 	{
 		return (1);
 	}
