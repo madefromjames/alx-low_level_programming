@@ -2,7 +2,7 @@
 
 /**
  * print_line - draws a straight line
- *
+ * @n: return line
  * Return: Always 0.
  */
 void print_line(int n)
