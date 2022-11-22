@@ -1,3 +1,3 @@
-[master d9b4a7b] second argc
- 2 files changed, 18 insertions(+), 4 deletions(-)
- create mode 100644 0x0A-argc_argv/2-args.c
+[master 457575e] mul
+ 2 files changed, 21 insertions(+), 3 deletions(-)
+ create mode 100644 0x0A-argc_argv/3-mul.c
