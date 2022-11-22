@@ -1,3 +1,4 @@
-[master a5770c9] mul
- 2 files changed, 4 insertions(+), 3 deletions(-)
- create mode 100755 0x0A-argc_argv/mul
+[master 1657458] change
+ 3 files changed, 41 insertions(+), 4 deletions(-)
+ create mode 100644 0x0A-argc_argv/100-change.c
+ create mode 100755 0x0A-argc_argv/change
