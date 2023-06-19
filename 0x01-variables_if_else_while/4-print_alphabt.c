@@ -12,7 +12,7 @@ int main(void)
 
 	for (i = 97; i < 123; i++)
 	{
-		if ((i != 133) && (i != 101))
+		if (i != 'q' && i != 'e')
 			putchar(i);
 	}
 	putchar(10);
