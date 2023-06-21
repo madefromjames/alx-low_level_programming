@@ -2,13 +2,21 @@
 #include "main.h"
 
 /**
- * main - print _putchar
+ * main - print putchar
  *
  * Return: 0;
  */
 
 int main(void)
 {
-	printf("_putchar\n");
+	char james[9] = "_putchar";
+	int i;
+
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(james[i]);
+	}
+	_putchar(10);
+
 	return (0);
 }
