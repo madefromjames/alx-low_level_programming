@@ -15,24 +15,21 @@ void times_table(void)
 			sum = a * b;
 			if (b == 0)
 				{
-					_putchar(sum / 10 + '0');
-					_putchar(',');
-					_putchar(' ');
-					_putchar(' ');
-				}
-				else if (sum < 10)
-				{
 					_putchar(sum + '0');
+				}
+				else if (sum < 10 && b != 0)
+				{
 					_putchar(',');
 					_putchar(' ');
 					_putchar(' ');
+					_putchar(sum + '0');
 				}
 				else if (sum >= 10)
 				{
-					_putchar(sum / 10 + '0');
-					_putchar(sum % 10 + '0');
 					_putchar(',');
 					_putchar(' ');
+					_putchar(sum / 10 + '0');
+					_putchar(sum % 10 + '0');
 				}
 		}
 		_putchar(10);
