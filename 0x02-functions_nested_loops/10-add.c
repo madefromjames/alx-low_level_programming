@@ -2,15 +2,16 @@
 
 /**
  * add - adds two integer
- * @num: first number
- * @num: second number
+ * @num1: first parameter
+ * @num2: second parameter
  *
  * Return: 0;
  */
 int add(int num1, int num2)
 {
 	int twoDigit = num1 + num2;
-	return twoDigit;
+
+	return (twoDigit);
 
 	return (0);
 }
