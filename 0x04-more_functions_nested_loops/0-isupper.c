@@ -8,9 +8,9 @@
  */
 int _isupper(int c)
 {
-	if (c == 'A')
+	if (c == 65)
 		return (1);
-	else if (c != 'c')
+	else if (c != 99)
 		return (0);
 
 	return (0);
