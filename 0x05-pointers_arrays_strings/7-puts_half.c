@@ -6,15 +6,15 @@
  */
 void puts_half(char *str)
 {
-	int len, half;
+	int len;
 
 	for (len = 0; str[len] != '\0'; len++)
 	{
 	}
 
-	for (half = 5; half < len; half++)
+	for (len /= 2; str[len] != 0; len++)
 	{
-		_putchar(half[str]);
+		_putchar(str[len]);
 	}
 	_putchar(10);
 }
