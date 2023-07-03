@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * strcat - joins two string
+ * _strcat - joins two string
  * @dest: string destination to be copied
  * @src: string source to be copied
  * Return: 0
